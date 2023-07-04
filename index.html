@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Tasklist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Tasklist</h1>
+    <div class="task-input">
+      <input type="text" id="task" placeholder="Enter your task...">
+      <button id="addTaskButton">Add</button>
+    </div>
+    <ul id="task-list">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+    <div class="task-stats">
+      <p>Tasks Completed: <span id="completed-count">0</span></p>
+      <p>Tasks Remaining: <span id="remaining-count">0</span></p>
+    </div>
+    <button id="addTaskButton" class="saveButton">Save Task</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Akshay's Tasklist Extension",
+  "version": "1.0",
+  "description": "A simple to-do list extension.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
